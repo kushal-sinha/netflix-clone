@@ -52,9 +52,9 @@ const MainHeader = () => {
         backgroundImage: "none",
         ...(isOffset
           ? {
-              bgcolor: "primary.main",
-              boxShadow: (theme) => theme.shadows[4],
-            }
+            bgcolor: "primary.main",
+            boxShadow: (theme) => theme.shadows[4],
+          }
           : { boxShadow: 0, bgcolor: "transparent" }),
       }}
     >
@@ -134,7 +134,7 @@ const MainHeader = () => {
           <SearchBox />
           <Tooltip title="Open settings">
             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-              <Avatar alt="user_avatar" src="/avatar.png" variant="rounded" />
+              <Avatar alt="user_avatar" src="/profile.png" variant="rounded" />
             </IconButton>
           </Tooltip>
           <Menu
