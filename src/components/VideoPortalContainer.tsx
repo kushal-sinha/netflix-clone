@@ -58,13 +58,13 @@ export default function VideoPortalContainer() {
               top: rect.top + window.pageYOffset - 0.75 * rect.height,
               ...(isLastElement
                 ? {
-                    right: document.documentElement.clientWidth - rect.right,
-                  }
+                  right: document.documentElement.clientWidth - rect.right,
+                }
                 : {
-                    left: isFirstElement
-                      ? rect.left
-                      : rect.left - 0.25 * rect.width,
-                  }),
+                  left: isFirstElement
+                    ? rect.left
+                    : rect.left - 0.25 * rect.width,
+                }),
             }),
           }}
         />
@@ -72,3 +72,4 @@ export default function VideoPortalContainer() {
     </>
   );
 }
+// video pasta

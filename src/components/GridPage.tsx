@@ -14,4 +14,5 @@ export default function GridPage({ genre, mediaType }: GridPageProps) {
     genre
   );
   return <Component />;
+  //component
 }

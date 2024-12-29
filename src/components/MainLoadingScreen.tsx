@@ -23,3 +23,4 @@ function MainLoadingScreen() {
 }
 
 export default MainLoadingScreen;
+//main loading

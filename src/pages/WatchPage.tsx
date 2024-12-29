@@ -259,7 +259,7 @@ export function Component() {
                 </Stack>
                 {/* end right controller */}
               </Stack>
-              {/* end Controller */}
+              {/* end Coontroller */}
             </Box>
           </Box>
         )}

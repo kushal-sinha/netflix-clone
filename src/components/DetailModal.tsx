@@ -96,10 +96,9 @@ export default function DetailModal() {
                   sources: [
                     {
                       type: "video/youtube",
-                      src: `https://www.youtube.com/watch?v=${
-                        detail.mediaDetail?.videos.results[0]?.key ||
+                      src: `https://www.youtube.com/watch?v=${detail.mediaDetail?.videos.results[0]?.key ||
                         "L3oOldViIgY"
-                      }`,
+                        }`,
                     },
                   ],
                 }}
@@ -126,7 +125,7 @@ export default function DetailModal() {
                   backgroundRepeat: "repeat-x",
                   backgroundPosition: "0px top",
                   backgroundSize: "100% 100%",
-                  bottom: 0,
+                  bottom: 1,
                   position: "absolute",
                   height: "14.7vw",
                   opacity: 1,

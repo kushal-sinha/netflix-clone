@@ -1,5 +1,5 @@
 import { RefObject, useEffect, useState } from "react";
-// import { buildThresholdList } from "src/utils";
+// import { buildThresholdLisst } from "src/utils";
 
 export default function useIntersectionObserver(
   ref: RefObject<HTMLElement>,

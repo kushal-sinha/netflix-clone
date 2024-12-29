@@ -9,7 +9,7 @@ import { MEDIA_TYPE } from "src/types/Common";
 import { CustomGenre, Genre } from "src/types/Genre";
 import {
   genreSliceEndpoints,
-  // useGetGenresQuery
+  // useGetGenressQuery
 } from "src/store/slices/genre";
 import store from "src/store";
 

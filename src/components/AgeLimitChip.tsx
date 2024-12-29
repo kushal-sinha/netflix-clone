@@ -4,7 +4,7 @@ export default function AgeLimitChip({ sx, ...others }: ChipProps) {
     <Chip
       {...others}
       sx={{
-        borderRadius: 0,
+        borderRadius: 1,
         p: 0.5,
         fontSize: 12,
         height: "100%",

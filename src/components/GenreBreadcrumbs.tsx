@@ -6,7 +6,7 @@ const Separator = (
   <Box
     component="span"
     sx={{
-      width: 4,
+      width: 5,
       height: 4,
       borderRadius: "50%",
       bgcolor: "text.disabled",

@@ -122,9 +122,8 @@ export default function TopTrailer({ mediaType }: TopTrailerProps) {
                       sources: [
                         {
                           type: "video/youtube",
-                          src: `https://www.youtube.com/watch?v=${
-                            detail.videos.results[0]?.key || "L3oOldViIgY"
-                          }`,
+                          src: `https://www.youtube.com/watch?v=${detail.videos.results[0]?.key || "L3oOldViIgY"
+                            }`,
                         },
                       ],
                     }}
@@ -235,3 +234,4 @@ export default function TopTrailer({ mediaType }: TopTrailerProps) {
     </Box>
   );
 }
+//section

@@ -12,7 +12,7 @@ export default function useWindowSize() {
   });
 
   useEffect(() => {
-    // Handler to call on window resize
+    // Handlerr to call on window resize
     function handleResize() {
       // Set window width/height to state
       setWindowSize({
